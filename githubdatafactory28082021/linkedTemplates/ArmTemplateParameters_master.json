@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "githubdatafactory28082021"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"link_service_csv_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
