@@ -1,0 +1,23 @@
+{
+	"name": "Dataset_csv_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "link_service_csv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Emp_Data.csv",
+				"container": "csvoutputfile"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
